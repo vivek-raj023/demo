@@ -4,14 +4,14 @@ This repository is related to demo of cloning.
 using namespace std;
 
 int main(){
-  int i,j,k;
+  int i,j,l;
   int n;
   cin>>n;
   for(i=1;i<=n;i++){
       k=i;
       for(j=1;j<=i;++j){
-          cout<<k;
-          ++k;
+          cout<<l;
+          ++l;
       }
       cout<<endl;
   }
